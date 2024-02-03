@@ -47,6 +47,7 @@ main {
 }
 
 #mensagens {
+  font-family: 'Trench';
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -55,10 +56,11 @@ main {
   background-color: #eaeaea;
   flex-grow: 1;
   width: 100%;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
 }
 
 .mensagem {
+  font-family: 'Trench';
   background-color: #040e29;
   color: #fff;
   width: 85%;
@@ -79,7 +81,9 @@ main {
   min-width: 40%;
   max-height: 3rem;
   & > input {
+    font-family: 'Trench';
     flex-grow: 1;
+    font-size: 1.5rem;
     padding: 0.5rem 0.3rem;
   }
   & > button {
